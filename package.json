@@ -1,0 +1,21 @@
+{
+  "name": "fn2bot",
+  "version": "1.0.0",
+  "description": "FN 2 Birinchi telegram bot",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "prisma": "8.0.0-rc.29"
+  }
+}
